@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="46850804-bdf5-4887-be99-b04cb80a6bec" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\work\apache-maven-3.6.3\repository" />
+        <option name="mavenHome" value="C:/Program Files/Maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\Program Files\Maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2CVYQ1zVZffGAX48Mx5jb88ZZTK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hmi/space-hmi" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.handler" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chat.clinet.Client" />
+      <module name="Ntc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chat.clinet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Main" />
+      <module name="Ntc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceBoot" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chat.service.ServiceBoot" />
+      <module name="Ntc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chat.service.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebSocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.websocket.WebSocketServer" />
+      <module name="Ntc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.websocket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ServiceBoot" />
+      <item itemvalue="Application.WebSocketServer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.ServiceBoot" />
+        <item itemvalue="Application.WebSocketServer" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46850804-bdf5-4887-be99-b04cb80a6bec" name="Default Changelist" comment="" />
+      <created>1658889199558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658889199558</updated>
+      <workItem from="1658889202871" duration="33080000" />
+      <workItem from="1658995775264" duration="682000" />
+      <workItem from="1658996476942" duration="7622000" />
+      <workItem from="1659012055062" duration="19274000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="659" y="160" key="#ServiceBoot" timestamp="1658902875677">
+      <screen x="0" y="0" width="1912" height="968" />
+    </state>
+    <state x="659" y="160" key="#ServiceBoot/0.0.1912.968@0.0.1912.968" timestamp="1658902875677" />
+    <state x="410" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1658990102018">
+      <screen x="0" y="0" width="1912" height="968" />
+    </state>
+    <state x="410" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1912.968@0.0.1912.968" timestamp="1658990102017" />
+    <state x="764" y="218" width="512" height="583" key="#com.intellij.ide.util.MemberChooser" timestamp="1659086212016">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="761" y="203" width="512" height="583" key="#com.intellij.ide.util.MemberChooser/0.0.1912.968@0.0.1912.968" timestamp="1659017770804" />
+    <state x="764" y="218" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1659086212016" />
+    <state x="645" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1659063860601">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="642" y="412" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1912.968@0.0.1912.968" timestamp="1658996526356" />
+    <state x="645" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1659063860601" />
+    <state x="695" y="29" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1658890642663">
+      <screen x="0" y="0" width="1912" height="968" />
+    </state>
+    <state x="695" y="29" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1912.968@0.0.1912.968" timestamp="1658890642663" />
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1659079951354">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1659079951354" />
+    <state width="1877" height="374" key="GridCell.Tab.0.bottom" timestamp="1659087172343">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="328" key="GridCell.Tab.0.bottom/0.0.1912.968@0.0.1912.968" timestamp="1659020122573" />
+    <state width="1877" height="374" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1659087172343" />
+    <state width="1877" height="374" key="GridCell.Tab.0.center" timestamp="1659087172343">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="328" key="GridCell.Tab.0.center/0.0.1912.968@0.0.1912.968" timestamp="1659020122573" />
+    <state width="1877" height="374" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1659087172343" />
+    <state width="1877" height="374" key="GridCell.Tab.0.left" timestamp="1659087172343">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="328" key="GridCell.Tab.0.left/0.0.1912.968@0.0.1912.968" timestamp="1659020122573" />
+    <state width="1877" height="374" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1659087172343" />
+    <state width="1877" height="374" key="GridCell.Tab.0.right" timestamp="1659087172343">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="328" key="GridCell.Tab.0.right/0.0.1912.968@0.0.1912.968" timestamp="1659020122573" />
+    <state width="1877" height="374" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1659087172343" />
+    <state x="327" y="281" width="940" height="529" key="Maven.ArtifactSearchDialog" timestamp="1658995691903">
+      <screen x="0" y="0" width="1912" height="968" />
+    </state>
+    <state x="327" y="281" width="940" height="529" key="Maven.ArtifactSearchDialog/0.0.1912.968@0.0.1912.968" timestamp="1658995691903" />
+    <state x="622" y="222" width="675" height="729" key="search.everywhere.popup" timestamp="1659085814626">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="619" y="207" width="672" height="678" key="search.everywhere.popup/0.0.1912.968@0.0.1912.968" timestamp="1658906884251" />
+    <state x="622" y="222" width="675" height="729" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1659085814626" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/websocket/handler/MyTextSimpleWebsocketFrameHandler.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/websocket/handler/MyTextSimpleWebsocketFrameHandler.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/chat/handler/request/PingRequestMessageHandler.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

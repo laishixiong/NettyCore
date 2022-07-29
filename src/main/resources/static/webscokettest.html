@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<div><h2>使用说明书</h2></div>
+<div>
+    <h4>本测试页面无需引入其他js和css文件。在使用前，请检查本页面源码的websocket地址是否正确。</h4>
+    <h4>
+       发送内容说明：
+
+    </h4>
+    <h4>
+        操作步骤：
+        <ul>
+            <li>填写随机会话id</li>
+            <li>点击连“接按”钮</li>
+            <li>填写“注册画布到当前会话”的消息内容，点击“发送”</li>
+            <li>等待后台推送的消息</li>
+        </ul>
+    </h4>
+</div>
+<div style="width: 100%;height: 6px;background-color: black;margin: 10px"></div>
+<div>
+    <label>输入会话id:</label> <input id="sid" type="text" style="width: 200px;marrgin-left: 36px"
+                                  placeholder="ID只要是随机不重复就行"/>
+    <input type="button" value="连接" onclick="openWS()"/>
+    <input type="button" value="断开" onclick="closeWS()"/>
+</div>
+</br>
+<div>
+    <input id="inputValue" type="text" style="height: 50px;width: 400px;" placeholder="{'action':'init','msg':'2af8d5477625e681937ebc8000022b21'}"/>
+    <input type="button" value="发送" onclick="sendMsg()"/>
+</div>
+</br>
+<div>
+
+</div>
+
+<textarea id="receive" style="height: 350px;width:450px">
+</textarea>
+
+</body>
+
+<script type="text/javascript">
+    var ws;
+
+    function openWS() {
+
+        var sid = document.getElementById("sid").value;
+        //ws = new WebSocket("ws://127.0.0.1:7080/manager/mq/datawebsocket/" + sid);
+        ws = new WebSocket("ws://127.0.0.1:9090/ws?sid="+sid);
+
+        ws.onopen = function (evt) {
+            console.log("Connection open ...");
+            //ws.send("Hello WebSockets!");
+        };
+
+        ws.onmessage = function (evt) {
+            console.log("Received Message: " + evt.data);
+            document.getElementById("receive").value = evt.data;
+
+        };
+
+        ws.onclose = function (evt) {
+            console.log("Connection closed.");
+        };
+    }
+
+    function closeWS() {
+        ws.close();
+    }
+
+
+    function sendMsg() {
+        var value = document.getElementById("inputValue").value
+        console.log(value);
+        ws.send(value);
+    }
+
+</script>
+
+
+</html>
